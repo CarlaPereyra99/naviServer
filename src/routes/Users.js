@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 		}
 
 		return res.json({
-			ok: true,
+			ok: UserDB ? true : false,
 			UserDB
 		});
 	});
