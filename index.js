@@ -8,7 +8,7 @@ const port = process.env.PORT || 4000;
 
 // Database Conection Successful
 mongoose
-	.connect('mongodb+srv://NaerHdz:NaerMongo_28@cluster0.vdnph.mongodb.net/navi', {
+	.connect('mongodb://localhost/dbNavi', {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 		useFindAndModify: false,
